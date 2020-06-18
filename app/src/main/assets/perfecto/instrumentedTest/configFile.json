@@ -1,0 +1,22 @@
+{
+
+  "devices": [
+    {
+			"platformVersion": "^[678].*"
+		},
+    {
+      "model": "Galaxy.*"
+    }
+
+  ],
+
+
+  "jobName": "some_job",
+  "jobNumber": 1,
+  "branch": "some_branch",
+  "installationDetails" : {"preCleanUp" : "true"},
+  "postExecution" : {"uninstall" : "true" }
+}
+
+
+
